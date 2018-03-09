@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1NETCore\DAL\DAL.csproj" />
+    <ProjectReference Include="..\ConsoleApp1NETCore\IBLL\IBLL.csproj" />
+  </ItemGroup>
+
+</Project>
