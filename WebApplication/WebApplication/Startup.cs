@@ -15,7 +15,7 @@ namespace WebApplication
         {
             Configuration = configuration;
 
-            //NET Core 新特性
+            //NET Core 新特 性
         }
 
         public IConfiguration Configuration { get; }
