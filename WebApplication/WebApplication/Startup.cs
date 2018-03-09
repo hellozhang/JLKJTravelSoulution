@@ -14,6 +14,8 @@ namespace WebApplication
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            //NET Core ÐÂÌØÐÔ
         }
 
         public IConfiguration Configuration { get; }
