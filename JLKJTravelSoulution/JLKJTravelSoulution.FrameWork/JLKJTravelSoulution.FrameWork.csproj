@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="JLKJTravelSoulution.FrameWork.Entity\JLKJTravelSoulution.FrameWork.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>JLKJTravelSoulution.FrameWork.cs</LastGenOutput>
+    </None>
+    <None Update="JLKJTravelSoulution.FrameWork.IRepository\JLKJTravelSoulution.FrameWork.IRepository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>JLKJTravelSoulution.FrameWork.IRepository.cs</LastGenOutput>
+    </None>
+    <None Update="JLKJTravelSoulution.FrameWork.IServices\JLKJTravelSoulution.FrameWork.IServices.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>JLKJTravelSoulution.FrameWork.IServices.cs</LastGenOutput>
+    </None>
+    <None Update="JLKJTravelSoulution.FrameWork.Repository\JLKJTravelSoulution.FrameWork.Repository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>JLKJTravelSoulution.FrameWork.Repository.cs</LastGenOutput>
+    </None>
+    <None Update="JLKJTravelSoulution.FrameWork.Services\JLKJTravelSoulution.FrameWork.Services.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>JLKJTravelSoulution.FrameWork.Services.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="JLKJTravelSoulution.FrameWork.Entity\JLKJTravelSoulution.FrameWork.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JLKJTravelSoulution.FrameWork.tt</DependentUpon>
+    </Compile>
+    <Compile Update="JLKJTravelSoulution.FrameWork.IRepository\JLKJTravelSoulution.FrameWork.IRepository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JLKJTravelSoulution.FrameWork.IRepository.tt</DependentUpon>
+    </Compile>
+    <Compile Update="JLKJTravelSoulution.FrameWork.IServices\JLKJTravelSoulution.FrameWork.IServices.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JLKJTravelSoulution.FrameWork.IServices.tt</DependentUpon>
+    </Compile>
+    <Compile Update="JLKJTravelSoulution.FrameWork.Repository\JLKJTravelSoulution.FrameWork.Repository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JLKJTravelSoulution.FrameWork.Repository.tt</DependentUpon>
+    </Compile>
+    <Compile Update="JLKJTravelSoulution.FrameWork.Services\JLKJTravelSoulution.FrameWork.Services.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JLKJTravelSoulution.FrameWork.Services.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\JLKJTravelSoulution\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JLKJTravelSoulution.Common\JLKJTravelSoulution.Common.csproj" />
+    <ProjectReference Include="..\JLKJTravelSoulution.IRepository\JLKJTravelSoulution.IRepository.csproj" />
+    <ProjectReference Include="..\JLKJTravelSoulution.IServices\JLKJTravelSoulution.IServices.csproj" />
+    <ProjectReference Include="..\JLKJTravelSoulution.Model\JLKJTravelSoulution.Model.csproj" />
+  </ItemGroup>
+
+</Project>
