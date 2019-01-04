@@ -8,7 +8,7 @@ namespace JLKJTravelSoulution.Repository
 {
     public class BaseDBConfig
     {
-        public static string ConnectionString = File.Exists(@"D:\my-file\dbCountPsw1.txt") ? File.ReadAllText(@"D:\my-file\dbCountPsw1.txt").Trim() : "server=.;uid=sa;pwd=sa;database=BlogDB";
+        public static string ConnectionString = File.Exists(@"D:\my-file\dbCountPsw1.txt") ? File.ReadAllText(@"D:\my-file\dbCountPsw1.txt").Trim() : "server=192.168.10.168;uid=sa;pwd=123;database=WMBlogDB";
 
         //正常格式是
 

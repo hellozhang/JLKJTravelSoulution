@@ -1,0 +1,1 @@
+D:/nuget.exe  restore F:\tulv\jlkjeMallPlatformB2B\Server.Api\ECardPass.Api.sln
