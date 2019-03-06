@@ -2,7 +2,7 @@
 	//----------Advertisement开始----------
     
 using System;
-namespace JLKJTravelSoulution.FrameWork.Entity
+namespace JLKJTravelSoulution.FrameWork.Entity3
 {	
 	/// <summary>
 	/// Advertisement

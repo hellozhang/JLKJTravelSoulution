@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="T4" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="JLKJTravelSoulution.FrameWork.Entity\JLKJTravelSoulution.FrameWork.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>JLKJTravelSoulution.FrameWork.cs</LastGenOutput>

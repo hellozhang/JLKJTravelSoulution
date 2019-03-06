@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <UserName>小明</UserName>
+  <ServerIPAddress>127.0.0.1</ServerIPAddress>
+  <Numbers>
+    <int>1</int>
+    <int>2</int>
+  </Numbers>
+</config>
