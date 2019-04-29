@@ -325,9 +325,7 @@ class SqlServerDbTypeMap
     }
 class config
 	{
-		
-        //public static readonly string ConnectionString = "Data Source=192.168.10.168;Initial Catalog=WMBlogDB;User ID=sa;Password=123;";
-        public static readonly string ConnectionString = "server=192.168.30.176;uid=sa;pwd=123;database=WMBlogDB";
+        public static readonly string ConnectionString = "server=192.168.30.168;uid=sa;pwd=123;database=WMBlogDB";
         public static readonly string DbDatabase = "WMBlogDB";
         public static readonly string TableName = "Test";
 	}#>
