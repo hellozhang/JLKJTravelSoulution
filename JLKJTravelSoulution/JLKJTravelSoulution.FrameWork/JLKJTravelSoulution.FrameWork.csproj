@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="JLKJTravelSoulution.FrameWork.Entity\ork.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ork.cs</LastGenOutput>
+    </None>
     <None Update="JLKJTravelSoulution.FrameWork.Entity\JLKJTravelSoulution.FrameWork.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>JLKJTravelSoulution.FrameWork.cs</LastGenOutput>
@@ -40,6 +44,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="JLKJTravelSoulution.FrameWork.Entity\ork.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ork.tt</DependentUpon>
+    </Compile>
     <Compile Update="JLKJTravelSoulution.FrameWork.Entity\JLKJTravelSoulution.FrameWork.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

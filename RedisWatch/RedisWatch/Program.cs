@@ -27,6 +27,7 @@ namespace RedisWatch
                     }
                     try
                     {
+                        //RedisHelper.Set("DT", DateTime.Now);
                         if (RedisHelper.Exists(key))
                         {
                             object obj = RedisHelper.Get(key);
@@ -73,7 +74,7 @@ namespace RedisWatch
             static RedisHelper()
             {
                 CSRedisHelper.Initialization(
-                    csredis: new CSRedisClient("116.62.196.145:6379,defaultDatabase=0,poolsize=50,ssl=false,writeBuffer=10240,prefix="),
+                    csredis: new CSRedisClient("116.62.196.145:6380,defaultDatabase=0,poolsize=50,ssl=false,writeBuffer=10240,prefix="),
                     serialize: value => Newtonsoft.Json.JsonConvert.SerializeObject(value),
                     deserialize: (data, type) => Newtonsoft.Json.JsonConvert.DeserializeObject(data, type));
             }
