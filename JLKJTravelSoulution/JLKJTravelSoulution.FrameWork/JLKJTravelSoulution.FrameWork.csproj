@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="JLKJTravelSoulution.FrameWork.IRepository\work\IAdvertisementRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="T4" Version="2.0.1" />
   </ItemGroup>
 

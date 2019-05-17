@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="IAdvertisementServices.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\JLKJTravelSoulution.Model\JLKJTravelSoulution.Model.csproj" />
   </ItemGroup>
 
